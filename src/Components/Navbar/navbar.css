@@ -1,0 +1,53 @@
+/* Styling the navbar */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 0;
+    background-color: #7091E6; 
+    width: 100vw;
+    height: 6%;
+    text-decoration: none;
+} 
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#navbar-left{
+    display: flex;
+    gap: 0.5%;
+    width: 50%;    
+}
+
+.navbar-link:first-child{
+    padding-left: 25px;
+    text-align: left;
+}
+
+.navbar-link{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.navbar-link:hover{
+    background-color: #ADBBDA;
+    transform: scale(1.1);
+}
+
+.navbar-link a {
+    text-decoration: none;
+    color: white; 
+    font-size: large;
+}
+
+
+

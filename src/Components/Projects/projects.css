@@ -1,0 +1,25 @@
+#projects{
+    height: inherit;
+}
+
+#project-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr); 
+    grid-template-rows: repeat(3, 0.5fr); 
+    gap: 5px;
+    height: inherit;
+    margin: 10px;
+}
+
+.project-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: #EDE8F5;
+}
+
