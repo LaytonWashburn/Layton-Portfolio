@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import {Home} from './Components/Home/Home.jsx'
+import { Experience } from './Components/Experience/Experience.jsx'
 import { Projects } from './Components/Projects/Projects.jsx'
 import { Tutor } from './Components/TypingTutor/Tutor.jsx'
 import { 
@@ -17,6 +18,10 @@ const router = createHashRouter([
       {
         path: "/",
         element: <Home/>
+      },
+      {
+        path: "/Experience",
+        element: <Experience/>
       },
       {
         path: "/Projects",

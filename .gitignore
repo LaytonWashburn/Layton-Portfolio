@@ -21,3 +21,15 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# # Source Files
+# public/
+# src/
+# config-override.js
+# index.html
+# package-lock.json
+# package.json
+# PLAN.md
+# README.md
+# tailwind.config.js
+# vite.config.js

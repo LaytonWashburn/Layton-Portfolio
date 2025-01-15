@@ -5,7 +5,7 @@ import "./styles.css"
 function App() {
 
   return (
-    <div id='main'> 
+    <div id='main' className='bg-red'> 
         <Navbar/>
         <Outlet/>
     </div>
