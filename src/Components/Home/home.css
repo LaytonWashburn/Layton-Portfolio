@@ -55,3 +55,7 @@ p {
 .font-bold {
     font-weight: bold;
 }
+
+.link-underline {
+    text-decoration: underline;
+}
